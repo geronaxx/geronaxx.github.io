@@ -51,3 +51,11 @@ body {
 .resume-item{
     text-transform: none;
 }
+
+.center{
+    text-align: center;
+}
+
+.pt-65{
+    padding-top: 65px!important;
+}

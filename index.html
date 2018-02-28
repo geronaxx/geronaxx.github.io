@@ -15,38 +15,50 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script type="text/javascript">
-        window.smartlook||(function(d) {
-        var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-        c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+        window.smartlook || (function (d) {
+            var o = smartlook = function () {
+                    o.api.push(arguments)
+                },
+                h = d.getElementsByTagName('head')[0];
+            var c = d.createElement('script');
+            o.api = new Array();
+            c.async = true;
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.src = 'https://rec.smartlook.com/recorder.js';
+            h.appendChild(c);
         })(document);
         smartlook('init', 'edd148ec1dce65fd2cab4364723de2b3d5ca8001');
     </script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top bg-blue">
-        <div></div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMain" aria-controls="navBarMain"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navBarMain">
-            <div class="navbar-nav mx-auto">
-                <a href="#about-head-section" class="nav-link my-auto js-scroll-trigger active ">ABOUT</a>
-                <a href="#experience-head-section" class="nav-link my-auto js-scroll-trigger">EXPERIENCE</a>
-                <span class="d-none d-lg-block d-print-block">
-                    <img src="assets/images/hgcr.png" alt="" class="rounded-circle">
-                </span>
-                <a href="#skills-head-section" class="nav-link my-auto js-scroll-trigger">SKILLS</a>
-                <a href="#education-head-section" class="nav-link my-auto js-scroll-trigger">education</a>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top bg-blue">
+            <div></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMain" aria-controls="navBarMain"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarMain">
+                <div class="navbar-nav mx-auto">
+                    <a href="#about-head-section" class="nav-link my-auto js-scroll-trigger">ABOUT</a>
+                    <a href="#experience-head-section" class="nav-link my-auto js-scroll-trigger">EXPERIENCE</a>
+                    <a href="#skills-head-section" class="nav-link my-auto js-scroll-trigger">SKILLS</a>
+                    <a href="#education-head-section" class="nav-link my-auto js-scroll-trigger">education</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <div class="container-fluid p-0 bg-gray">
         <section class="page-section d-flex d-column p-3" id="about-head-section">
             <div class="container my-auto">
+                <div class="mx-auto center mb-3">
+                    <span class="d-none d-lg-block d-print-block">
+                        <img src="assets/images/hgcr.png" alt="" class="rounded-circle">
+                    </span>
+                </div>
                 <h1>Hibrahim Geronimo
                     <span class="fc-blue">corona ramos</span>
                 </h1>
@@ -84,7 +96,7 @@
         </section>
 
         <section class="page-section d-flex d-column p-3" id="experience-head-section">
-            <div class="container my-auto">
+            <div class="container my-auto pt-65">
                 <h3 class="mb-3">Experience</h3>
                 <div class="resume-item">
                     <div class="mb-3">
