@@ -59,3 +59,12 @@ body {
 .pt-65{
     padding-top: 65px!important;
 }
+
+.border-menu
+{
+    border-right: 1px solid #d3d3d3;
+}
+
+.nav-link{
+    color: white!important;
+}
